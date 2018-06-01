@@ -1,16 +1,25 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
-  "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "name": "abanduk-blog",
+  "description": "Alexander Bandukwala's Blog",
+  "version": "0.0.1-alpha",
+  "author": "Alexander Bandukwala <alexander@bandukwala.me>",
   "dependencies": {
     "gatsby": "^1.9.266",
     "gatsby-link": "^1.6.40",
+    "gatsby-plugin-glamor": "^1.6.13",
     "gatsby-plugin-react-helmet": "^2.0.10",
-    "react-helmet": "^5.2.0"
+    "gatsby-plugin-typography": "^1.7.18",
+    "gatsby-source-filesystem": "^1.5.38",
+    "gatsby-transformer-remark": "^1.7.41",
+    "glamorous": "^4.13.0",
+    "react-helmet": "^5.2.0",
+    "typography-theme-kirkham": "^0.16.3",
+    "typography-theme-lincoln": "^0.15.11"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "blog",
+    "abanduk"
   ],
   "license": "MIT",
   "scripts": {
@@ -24,6 +33,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/7h3kk1d/blog"
   }
 }
