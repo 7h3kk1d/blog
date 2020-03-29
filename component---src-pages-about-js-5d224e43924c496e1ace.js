@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{"3XHS":function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),i=t.n(a),l=t("Bl7J");n.default=function(){return i.a.createElement(l.a,null,i.a.createElement("div",null,i.a.createElement("h1",null,"About Me"),i.a.createElement("p",null,"Aspiring academic/software engineer interested in PL, distributed systems and HCI")))}}}]);
+//# sourceMappingURL=component---src-pages-about-js-5d224e43924c496e1ace.js.map
