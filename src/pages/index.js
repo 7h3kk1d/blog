@@ -1,13 +1,16 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import { rhythm } from "../utils/typography";
+import Layout from "../components/layout"
+import { graphql } from 'gatsby'
 
 const IndexPage = ({ data }) => (
-  <div>
-    <h1 >Posts</h1>
+  <Layout>
+    <div>
+      <h1>Posts</h1>
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id}>
-          <Link to={node.fields.slug} 
+          <Link to={node.fields.slug}
             style={{ textDecoration: `none`, color: `inherit` }}>
             <h3 style={{textDecoration: `none`, marginBottom: rhythm(1 / 8), marginTop: rhythm(1.25)}}>
               {node.frontmatter.title}{" "}<span style={{color: "lightgray"}}>- {node.frontmatter.date}</span>
@@ -16,7 +19,8 @@ const IndexPage = ({ data }) => (
           </Link>
         </div>
       ))}
-  </div>
+    </div>
+  </Layout>
 )
 
 export const query = graphql`

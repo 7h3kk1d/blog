@@ -3,4 +3,5 @@ import lincolnTheme from "typography-theme-lincoln";
 
 const typography = new Typography(lincolnTheme);
 
-export default typography;
+const { rhythm, scale } = typography;
+export { rhythm, scale, typography as default };
